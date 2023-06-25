@@ -1,0 +1,29 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
+#grid-container {
+  height: 500px;
+  width: 600px;
+  border: solid 3px rgba(126, 126, 126, 0.8);
+  margin: 50px 0;
+}
+
+.grid{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.grid-item {
+  border: 1px solid rgba(126, 126, 126, 0.8);
+  height: 5%;
+}
+
+.control-button{
+  width: 7em;
+}
+
+#game-speed-slider{
+  
+}
