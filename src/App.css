@@ -1,5 +1,12 @@
 html, body, #root, .App {
   height: 100%;
+  background-color: aqua;
+}
+
+#e{
+  height: 500px;
+  width: 100%;
+  background-color: #1D201F;
 }
 
 #grid-container {
@@ -23,6 +30,7 @@ html, body, #root, .App {
 .control-button{
   width: 7em;
 }
+
 
 #game-speed-slider{
   

@@ -8,18 +8,17 @@ function App() {
   const [cellGrid, setCellGrid] = useState(new CellGrid(20, 20));
   
   function changeCellGridState(newState){
-    setCellGrid(grid => ({
+    setCellGrid({
       ...cellGrid,
       state: newState
-    }));
+    });
   }
 
   return (
-    <div className='grid'>
-      <CellularGrid cellGrid={cellGrid} changeCellGrid={changeCellGridState}></CellularGrid>
-      <PlayButtons cellGrid={cellGrid} changeCellGrid={changeCellGridState}></PlayButtons>
+    <div>
+      <PlayButtons cellGrid={cellGrid} changeCellGrid={changeCellGridState} />
     </div>
   );
 }
-//<CellularGrid></CellularGrid>
+//<CellularGrid cellGrid={cellGrid} changeCellGrid={changeCellGridState}></CellularGrid>
 export default App;

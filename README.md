@@ -10,6 +10,7 @@
 * Try to refactor the non-component logic of the app.
 * Design UI in Figma.
 * Create a mapping function for the choosing the interval delay of the generation process.
+* Restructure the folder layout of the project for any possible future additions.
 
 ## Done
 

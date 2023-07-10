@@ -23,7 +23,7 @@ export default function CellularGrid(props){
                     <Grid item xs={12/cellGrid.rows}
                     key = {"cell" + cell.xIndex + cell.yIndex}
                     className="grid-item" 
-                    style={{background: cell.isAlive ? "black" : "white"}} 
+                    style={{background: cell.isAlive ? "#646E6A" : "#1D201F"}} 
                     onClick={toggleCell(cell.xIndex, cell.yIndex)}></Grid>
                 ))))}
         </Grid>
